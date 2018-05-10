@@ -42,8 +42,4 @@ class Client:
         if toDict:
             return zeep.helpers.serialize_object(student,target_cls=dict)
         return student
-if __name__ == '__main__':
-    client = Client("https://cms.powerschool.com")
-    x = client.getStudent("steng","95340")
-    y = client.getStudent("steng","95340",toDict=True)
 
