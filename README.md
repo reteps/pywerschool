@@ -6,7 +6,7 @@ A python wrapper over the powerschool api.
 ```python3
 client = pywerschool.Client(base_url)
 student = client.getStudent(username, password, toDict=True)
-print("Current GPA:{}".format(student["student"]["currentGPA"])
+print("Current GPA:{}".format(student["student"]["currentGPA"]))
 ```
 
 ### methods
